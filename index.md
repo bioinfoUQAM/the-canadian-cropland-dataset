@@ -1,32 +1,37 @@
 ---
-title: Home
-layout: home
+layout: default
+title: The Canadian Cropland Dataset
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+<p align="center"><img src="figures/home/crop_mosaic_10_categories.png" alt="An overview of sample patches of the crop classes in the dataset. The images measure 64 x 64 pixels and have a spatial resolution of 10 m/pixel." width="980" height="495" /></p>
 
-More specifically, the created site:
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+The *Canadian Cropland Dataset* is a temporal patch-based dataset of remote sensing images of Canadian croplands retrieved from the Sentinel-2 satellite constellation. The dataset contains 78,536 manually verified and curated high-resolution (10 m/pixel, 640 x 640 m) geo-referenced images from 10 crop classes collected over four crop production years (2017-2020) and five months (June-October) which were extracted using [Google Earth Engine](https://earthengine.google.com/  "Google Earth Engine") (GEE) and were automatically labelled with the [Canadian Crop Inventory](https://www.agr.gc.ca/atlas/aci "Canadian Crop Inventory") Each instance contains 12 spectral bands, an RGB image, and additional vegetation index bands. Individually, each crop category contains at least 4,800 samples. In perspective, we expect this evolving dataset to propel the creation of robust agro-environmental models that can accelerate the comprehension of complex agricultural regions by providing accurate and continuous monitoring of land cover.
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+**Keywords :** satellite imagery, remote sensing, dataset, agriculture, cropland, supervised learning, image classification, deep learning.
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+___
 
-To get started with creating a site, just click "[use this template]"!
+### Key Features
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+- **Multitemporal remote sensing dataset spanning multiple years :** . More than 70% of geolocations have an image collection of at least 10 images (over 4 years), allowing a temporally rich monitoring of a field through a multi-year, multi-crop rotation
+- **Transformed .PNG images ready to be directly used with existing deep learning benchmarks :** Each field instance contains an RGB image as well as common vegetation index images (NDVI, NDVI45, GNDVI, OSAVI, PSRI and NDWI) in .PNG format.
+- **High spectral resolution images :** We also supply a .zip folder with the original Sentinel-2 bands (12) and 6 additional vegetation index bands as georeferenced .TIF files. 
+- **Pre-constructed train / val / test sets :** The dataset comes prepackaged in dedicated training (70%), validation (15%) and testing sets (15%) suitable for use with Keras or Tensorflow image data generators. These sets remain the same for each individual year and image type (i.e NDVI, PSRI, etc.). Images belonging to the same geographical coordinates were kept together during the dataset splitting process
 
-----
+___
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+### Download Link
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+Both the cleaned and RAW versions of the dataset and can be downloaded from this [Google Drive ](https://drive.google.com/drive/folders/1mNI8B5EMk0Xgvx2Pc9ztnQRaW9pXh8yb?usp=sharing "Link to dataset") link. 
+
+___
+
+### License 
+
+**The dataset** is released under the [*Montreal Data License*](https://github.com/bioinfoUQAM/Canadian-cropland-dataset/blob/main/DATA_LICENSE) which is a [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) creative commons license. The dataset is available for researchers, principal investigators, individuals, government workers that will use the dataset purely for discovery and **not for commercial purposes**. 
+
+**The software** for benchmarking is available under the [MIT](https://github.com/bioinfoUQAM/Canadian-cropland-dataset/blob/main/CODE_LICENSE) license.
+
+___
