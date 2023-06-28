@@ -16,7 +16,7 @@ ___
 ### Key Features
 
 - **Multitemporal remote sensing dataset spanning multiple years :** . More than 70% of geolocations have an image collection of at least 10 images (over 4 years), allowing a temporally rich monitoring of a field through a multi-year, multi-crop rotation
-- **Transformed .PNG images ready to be directly used with existing deep learning benchmarks :** Each field instance contains an RGB image as well as common vegetation index images (NDVI, NDVI45, GNDVI, OSAVI, PSRI and NDWI) in .PNG format.
+- **Transformed .PNG images ready to be directly used with existing deep learning benchmarks :** Each field instance contains an RGB image as well as common vegetation index images (NDVI, NDVI45, GNDVI, OSAVI and PSRI; NDWI is inluded in the 2020 version and on) in .PNG format.
 - **High spectral resolution images :** We also supply a .zip folder with the original Sentinel-2 bands (12) and 6 additional vegetation index bands as georeferenced .TIF files. 
 - **Pre-constructed train / val / test sets :** The dataset comes prepackaged in dedicated training (70%), validation (15%) and testing sets (15%) suitable for use with Keras or Tensorflow image data generators. These sets remain the same for each individual year and image type (i.e NDVI, PSRI, etc.). Images belonging to the same geographical coordinates were kept together during the dataset splitting process
 

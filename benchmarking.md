@@ -7,10 +7,7 @@ We present two classification experiments performed using the 2019 version of th
 
 <p align="center"><img src="figures/benchmarking/classification_experiments.png" alt="Classification Experiment" width="1000"></p>
  
-
-___
-
-Tables showing results for both experiments are figured below.
+## Results
 
 ### Static Classification  
 
@@ -176,7 +173,7 @@ The deep learning models used for the static classification task include the [*R
 
 ### Dynamic Classification
 
-The deep learning models used for the dynamic classification task include the [* 3 Dimensional Convolutional Network (3DCNN)*](https://arxiv.org/abs/2007.13224) and the [*Long-Term Recurrent Convolutional Networks (LRCN)*](https://arxiv.org/abs/1411.4389). 
+The deep learning models used for the dynamic classification task include the [*3 Dimensional Convolutional Network (3DCNN)*](https://arxiv.org/abs/2007.13224) and the [*Long-Term Recurrent Convolutional Networks (LRCN)*](https://arxiv.org/abs/1411.4389). 
 
 
 <table style="border-collapse: collapse; table-layout: fixed; width: 100%;">
@@ -270,4 +267,14 @@ The deep learning models used for the dynamic classification task include the [*
     <td style="border: 1px solid black; text-align: center;"></td>
     <td style="border: 1px solid black; text-align: center;"></td>
     <td style="border: 1px solid black; text-align: center;"></td>
+  </tr>
+</table>  
 <br>
+
+The LRCN and 3D-CNN architectures showed higher average accuracies (0.77 for both models). Our overall results showed that classifiers trained with the triplets outperformed the static models (10% increase in accuracy, 0.773 vs 0.667, p<0.05).
+Furthermore, more complex models (≥ 5.38 millions of parameters) underperformed in contrast to the 3D-CNN (around 31,000 parameters).
+
+
+<div align="center">
+  <img src="figures/benchmarking/results_all_models_no_ResScr.png" width="1000" >
+</div>
