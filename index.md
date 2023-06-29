@@ -1,6 +1,7 @@
 ---
 layout: default
 title: The Canadian Cropland Dataset
+nav_order: 1
 ---
 
 
@@ -35,3 +36,9 @@ ___
 **The software** for benchmarking is available under the [MIT](https://github.com/bioinfoUQAM/Canadian-cropland-dataset/blob/main/CODE_LICENSE) license.
 
 ___
+
+<div class="callouts_level">
+
+The dataset is available for researchers, principal investigators, individuals, government workers that will use the dataset purely for discovery and not for **commercial purposes**
+</div>
+

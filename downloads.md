@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Downloads
+nav_order: 2
 ---
 
 ### Data and Datasheet 
