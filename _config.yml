@@ -1,8 +1,8 @@
-title: The Canadian Cropland dataset
+title: The Canadian Cropland Dataset
 description: A dataset descriptor website for the Canadian Cropland dataset
 theme: just-the-docs
 
-url: https://bioinfouqam.github.io/the-canadian-cropland-dataset-website/
+url: https://bioinfouqam.github.io/the-canadian-cropland-dataset/
 
 aux_links:
  Read the Paper on ArXiv: https://arxiv.org/abs/2306.00114
@@ -17,4 +17,6 @@ callouts:
   warning:
     title: Warning
     color: red
+
+
 

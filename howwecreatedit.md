@@ -3,6 +3,14 @@ layout: default
 title: How we created it 
 nav_order: 3
 ---
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 ## Image and Label Collection
 
@@ -102,14 +110,13 @@ NDVI = (ρ<sub>NIR</sub> - ρ<sub>red</sub>) / (ρ<sub>NIR</sub> + ρ<sub>red</s
    
 Where ρ<sub>NIR</sub> is equal to the NIR band and ρ<sub>red</sub> is the visible red band (represented by bands B8 and B4).
 
-- **NDVI45** The *NDV45* vegetation index is a revised version of the NDVI. It is strongly correlated with the leaf area index (LAI), which is an estimate of the amount of biomass and vegetative evapotranspiration, and provides information regarding the structure of a canopy. NDVI45 is defined as: 
+- **NDVI45** The *NDVI45* vegetation index is a revised version of the NDVI. It is strongly correlated with the leaf area index (LAI), which is an estimate of the amount of biomass and vegetative evapotranspiration, and provides information regarding the structure of a canopy. NDVI45 is defined as: 
 
 <div align="center">
 
 NDVI45 = (R<sub>704</sub> - ρ<sub>red</sub>) / (R<sub>704</sub> + ρ<sub>red</sub>) 
 </div>
-
-Where R<sub>704</sub> is the NIR spectral band centered at 704 nm (B5).  
+Where R<sub>704</sub> is the NIR spectral band centered at 704 nm (B5). 
 
 - **GNDVI** The *Green Normalized Difference Vegetation Index* was shown to correlate to the rate of photosynthesis and is used to monitor plant stress. GNDVI is calculated in a way that is analogous to NDVI, however the red band is replaced by the green band (ρ<sub>green</sub>). GNDVI is defined as:  
 
@@ -202,6 +209,7 @@ Contains spreadsheets and figures depicting the distribution of the images withi
 
 
 #### Count of the number of images for each crop type 
+{: .no_toc }
 
 <div align="center">
   <img src="figures/howwecreatedit/crop_counts_all_years(2016-2019).png" width="555" height="355" />
@@ -209,6 +217,7 @@ Contains spreadsheets and figures depicting the distribution of the images withi
 </div>
 
 #### Count of the number of sets for each image in a set
+{: .no_toc }
 
 <div align="center">
     <img src="figures/howwecreatedit/image_counts_all_years(2016-2019).png" width="555" height="355" />
@@ -216,6 +225,7 @@ Contains spreadsheets and figures depicting the distribution of the images withi
 </div>
 
 #### Count of the number of images for each month
+{: .no_toc }
 
 <div align="center">
     <img src="figures/howwecreatedit/month_counts_all_years(2016-2019).png" width="555" height="355" />
@@ -223,6 +233,7 @@ Contains spreadsheets and figures depicting the distribution of the images withi
 </div>
 
 #### Count of the number of images for each province
+{: .no_toc }
 
 <div align="center">
     <img src="figures/howwecreatedit/province_counts_all_years(2016-2019).png" width="555" height="355" />
