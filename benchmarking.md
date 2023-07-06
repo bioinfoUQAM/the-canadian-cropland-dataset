@@ -3,6 +3,11 @@ layout: default
 title: Benchmarking
 nav_order: 4
 ---
+
+# Benchmarking
+{: .no_toc }
+
+<br>
 <details open markdown="block">
   <summary>
     Table of contents
@@ -11,6 +16,7 @@ nav_order: 4
 1. TOC
 {:toc}
 </details>
+<br>
 
 We present two classification experiments performed using the 2019 version of the dataset to infer the main crop types present in each image. In the first experiment, *static classification*, we treated each individual image as a training instance (static image classification). In the second experiment, *dynamic classification* we explored the use of a temporal image series as an input. 
 
@@ -287,3 +293,9 @@ Furthermore, more complex models (≥ 5.38 millions of parameters) underperforme
 <div align="center">
   <img src="figures/benchmarking/results_all_models_no_ResScr.png" width="1000" >
 </div>
+
+
+## Use Cases
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+______
