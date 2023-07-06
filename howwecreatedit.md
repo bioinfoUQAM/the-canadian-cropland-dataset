@@ -65,6 +65,9 @@ The spatial resolutions of each of the main bands are reported in the table belo
 | B9        | 60                           | 945                     | Water Vapor |
 | B11       | 20                           | 1614                    | SWIR 1      |
 | B12       | 20                           | 2202                    | SWIR 2      |
+
+
+
 <br>
 
 ## Vegetation indices 
@@ -102,7 +105,8 @@ developments and applications. Journal of Sensors.)
 
 The spatial resolutions of each of the vegetation index bands are reported in the table below:
 
-| Band name | Spatial resolution (pixels/m) | Central wavelength (nm) | Description |
+
+| Band name | Spatial resolution (pixels/m)| Central wavelength (nm) | Description |
 |:---------:|:----------------------------:|:-----------------------:|:-----------:|
 | GNDVI     | 10                           |N/A                      | Veg Index   |
 | NDVI      | 10                           |N/A                      | Veg Index   |
