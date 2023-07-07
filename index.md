@@ -42,6 +42,19 @@ Both the cleaned and RAW versions of the dataset and can be downloaded from this
 
 ___
 
+## Citation
+
+```
+@misc{boatswainjacques2023canadian,
+      title={The Canadian Cropland Dataset: A New Land Cover Dataset for Multitemporal Deep Learning Classification in Agriculture}, 
+      author={Amanda A. {Boatswain Jacques} and {Abdoulaye Baniré} Diallo and Etienne Lord},
+      year={2023},
+      eprint={2306.00114},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}}
+```
+___
+
 ## License 
 
 **The dataset** is released under the [*Montreal Data License*](https://github.com/bioinfoUQAM/Canadian-cropland-dataset/blob/main/DATA_LICENSE) which is a [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) creative commons license. 

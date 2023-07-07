@@ -81,81 +81,30 @@ developments and applications. Journal of Sensors.)
     <th style="border: 1px solid black; text-align: center; width: 60%;">Description</th>
   </tr>
   <tr style="background-color: #f2f2f2;">
-    <td style="border: 1px solid black; text-align: center; width: 10%;">NDVI</td>
+    <td style="border: 1px solid black; text-align: center; width: 10%;"><a href="https://ui.adsabs.harvard.edu/abs/1974NASSP.351..309R/abstract">NDVI</a>
+</td>
     <td style="border: 1px solid black; text-align: center; width: 60%;">Indicator of plant growth and health, measures emitted chlorophyll</td>
   </tr>
   <tr>
-    <td style="border: 1px solid black; text-align: center; width: 10%;">NDVI45</td>
+    <td style="border: 1px solid black; text-align: center; width: 10%;"><a href="https://www.mdpi.com/1424-8220/11/7/7063">NDVI45</a></td>
     <td style="border: 1px solid black; text-align: center; width: 60%;">Indicates the amount of biomass and evapotranspiration, provides information on canopy structure</td>
   </tr>
   <tr style="background-color: #f2f2f2;">
-    <td style="border: 1px solid black; text-align: center; width: 10%;">GNDVI</td>
+    <td style="border: 1px solid black; text-align: center; width: 10%;"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0034425796000727">GNDVI</a></td>
     <td style="border: 1px solid black; text-align: center; width: 60%;">Correlates to the rate of photosynthesis, used to monitor plant stress</td>
   </tr>
   <tr>
-    <td style="border: 1px solid black; text-align: center; width: 10%;">PSRI</td>
+    <td style="border: 1px solid black; text-align: center; width: 10%;"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1034/j.1399-3054.1999.106119.x">PSRI</a></td>
     <td style="border: 1px solid black; text-align: center; width: 60%;">Measures the onset, the stage, and the relative rates of the senescence or ripening of a crop cover</td>
   </tr>
   <tr style="background-color: #f2f2f2;">
-    <td style="border: 1px solid black; text-align: center; width: 10%;">OSAVI</td>
+    <td style="border: 1px solid black; text-align: center; width: 10%;"><a href="https://www.sciencedirect.com/science/article/pii/0034425795001867">OSAVI</a></td>
     <td style="border: 1px solid black; text-align: center; width: 60%;">Provides an estimate of biomass that is more resilient when faced with soil and atmospheric effects</td>
   </tr>
 </table>
 
+The spatial resolutions of each of the vegetation index bands are identical to those of the Sentinel-2 bands  (10 m / pixel).
 
-The spatial resolutions of each of the vegetation index bands are reported in the table below:
-
-
-| Band name | Spatial resolution (pixels/m)| Central wavelength (nm) | Description |
-|:---------:|:----------------------------:|:-----------------------:|:-----------:|
-| GNDVI     | 10                           |N/A                      | Veg Index   |
-| NDVI      | 10                           |N/A                      | Veg Index   |
-| NDVI45    | 10                           |N/A                      | Veg Index   |
-| NDWI      | 10                           |N/A                      | Veg Index   |
-| OSAVI     | 10                           |N/A                      | Veg Index   |
-| PSRI      | 10                           |N/A                      | Veg Index   |
-
-
-- **NDVI** The *Normalized Difference Vegetation Index* is one of the most predominantly used indicators of plant growth and health. It correlates with the amount of chlorophyll emitted by a plant. NDVI is defined as:  
-
-<div align="center">
-
-NDVI = (ρ<sub>NIR</sub> - ρ<sub>red</sub>) / (ρ<sub>NIR</sub> + ρ<sub>red</sub>)
-
-</div>
-   
-Where ρ<sub>NIR</sub> is equal to the NIR band and ρ<sub>red</sub> is the visible red band (represented by bands B8 and B4).
-
-- **NDVI45** The *NDVI45* vegetation index is a revised version of the NDVI. It is strongly correlated with the leaf area index (LAI), which is an estimate of the amount of biomass and vegetative evapotranspiration, and provides information regarding the structure of a canopy. NDVI45 is defined as: 
-
-<div align="center">
-
-NDVI45 = (R<sub>704</sub> - ρ<sub>red</sub>) / (R<sub>704</sub> + ρ<sub>red</sub>) 
-</div>
-Where R<sub>704</sub> is the NIR spectral band centered at 704 nm (B5). 
-
-- **GNDVI** The *Green Normalized Difference Vegetation Index* was shown to correlate to the rate of photosynthesis and is used to monitor plant stress. GNDVI is calculated in a way that is analogous to NDVI, however the red band is replaced by the green band (ρ<sub>green</sub>). GNDVI is defined as:  
-
-<div align="center">
-
-NDVI = (ρ<sub>NIR</sub> - ρ<sub>green</sub>) / (ρ<sub>NIR</sub> + ρ<sub>green</sub>)  
-</div>
-
-- **PSRI** The *Plant Senescence Reflectance Index* is used to measure the onset, the stage, and the relative rates of the senescence or ripening of a crop cover. An increase in PSRI indicates heightened canopy stress. PSRI is defined by the equation:  
-
-<div align="center">
-
-PSRI = (ρ<sub>red</sub> - ρ<sub>blue</sub>) / R<sub>750</sub>
-</div>
-
-Where R<sub>750</sub> is the NIR spectral band centered at 750 nm (B6).  
-
-- **OSAVI** In conditions when vegetation is low and soil properties are unknown, indices like the NDVI can be subject to bias due to high levels of reflection. The *Optimized Soil-Adjusted Variation Index* was created to provide an estimate of biomass that is more resilient when faced with soil and atmospheric effects. OSAVI is defined as:  
-
-<div align="center">
-
-OSAVI = (ρ<sub>NIR</sub> - ρ<sub>red</sub>) / (ρ<sub>NIR</sub> + ρ<sub>red</sub> + 0.16)
-</div>
 ___
 
 ## Data cleaning
