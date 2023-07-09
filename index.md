@@ -62,6 +62,6 @@ ___
 
 {: .warning }
 
-The dataset is available for researchers, principal investigators, individuals, government workers that will use the dataset purely for discovery and not for **commercial purposes**
+The dataset is available for individuals, researchers, principal investigators and government workers. It is derived from Google Earth Engine and is subject to its terms. Thefore, **this dataset is to be used purely for discovery and not for commercial purposes.**
 
 ___
