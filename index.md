@@ -4,9 +4,9 @@ title: The Canadian Cropland Dataset
 nav_order: 1
 ---
 
-# Dataset Description
+# Description
 
-The *Canadian Cropland Dataset* is a temporal patch-based dataset of remote sensing images of Canadian croplands retrieved from the Sentinel-2 satellite constellation. The dataset contains 78,536 manually verified and curated high-resolution (10 m/pixel, 640 x 640 m) geo-referenced images from 10 crop classes collected over four crop production years (2017-2020) and five months (June-October) which were extracted using [Google Earth Engine](https://earthengine.google.com/  "Google Earth Engine") (GEE) and were automatically labelled with the [Canadian Crop Inventory](https://www.agr.gc.ca/atlas/aci "Canadian Crop Inventory") Each instance contains 12 spectral bands, an RGB image, and additional vegetation index bands. Individually, each crop category contains at least 4,800 samples. In perspective, we expect this evolving dataset to propel the creation of robust agro-environmental models that can accelerate the comprehension of complex agricultural regions by providing accurate and continuous monitoring of land cover.
+The *Canadian Cropland Dataset* is a temporal patch-based dataset of remote sensing images of Canadian croplands retrieved from the Sentinel-2 satellite constellation. The dataset contains 78,536 manually verified and curated high-resolution (10 m/pixel, 640 x 640 m) geo-referenced images from 10 crop classes collected over four crop production years (2017-2020) and five months (June-October) which were extracted using [Google Earth Engine](https://earthengine.google.com/  "Google Earth Engine") (GEE) and were automatically labelled with the [Canadian Crop Inventory](https://www.agr.gc.ca/atlas/aci "Canadian Crop Inventory") Each instance contains 12 spectral bands, an RGB image, and additional vegetation index bands. Individually, each crop category contains at least 4,800 samples.
 
 
 <p align="center"><img src="figures/home/crop_mosaic_10_categories.png" alt="An overview of sample patches of the crop classes in the dataset. The images measure 64 x 64 pixels and have a spatial resolution of 10 m/pixel." width="980" height="495" /></p>
