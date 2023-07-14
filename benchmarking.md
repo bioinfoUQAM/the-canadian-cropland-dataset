@@ -20,7 +20,7 @@ nav_order: 4
 
 We present two classification experiments performed using the 2019 version of the dataset to infer the main crop types present in each image. In the first experiment, *static classification*, we treated each individual image as a training instance (static image classification). In the second experiment, *dynamic classification* we explored the use of a temporal image series as an input. 
 
-<p align="center"><img src="figures/benchmarking/classification_experiments.png" alt="Classification Experiment" width="1000"></p>
+<p align="center"><img src="figures/benchmarking/classification_experiments2.png" alt="Classification Experiment" width="1000"></p>
  
 ## Results
 
